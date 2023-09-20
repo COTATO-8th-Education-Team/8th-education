@@ -56,10 +56,21 @@ IT 연합동아리 '코테이토' 8기 교육팀 발표 자료 폴더입니다.
 │
 ```
 
+## Git Rule
+- git clone <주소>를 통해 Repository를 clone 받는다.
+- `git checkout -b 본인 핸들명` 명령어를 통해 본인 브랜치를 생성한다.
+- 해당 브랜치에서 작업 후 커밋한다. (절대! dev 브랜치에서 작업하지 않는다.)
+- 작업 후 develop 브랜치로 PR을 날린다.
+- 작업 후 로컬에서 `git checkout develop`로 브랜치를 돌린 후 `git checkout -d 본인 핸들명`을 통해 브랜치를 삭제한다.
+- 작업 후 git push origin -D `본인 핸들명`을 통해 원격 브랜치를 삭제한다.
+- 다시 작업을 시작하고 싶으면 `git checkout -b 본인 핸들명`으로 브랜치를 로컬에서 생성해 작업하자.
+
 ## Convention
 발표자료 업로드: `docs: [신유승] n주차 발표자료 업로드`<br>
 발표외 공부자료 업로드: `docs: [OOO] n주차 공부자료 업로드`<br>
 
 
-### Pull request
+### Pull request convention
 [OOO] n주차 __자료 제출합니다. (발표 or 공부)
+
+
