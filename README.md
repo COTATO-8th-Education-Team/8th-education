@@ -83,7 +83,7 @@ IT 연합동아리 '코테이토' 8기 교육팀 발표 자료 폴더입니다.
 - 작업 후 `교육팀장`은 `Squash and Merge`를 통해 PR을 merge하고 원격 브랜치를 삭제한다.
 - 다시 작업을 시작하고 싶으면 `git checkout -b 본인 핸들명`으로 브랜치를 로컬에서 생성해 작업한다.<br>
 <br>
-[교육팀 Git 활용법 정리](https://github.com/COTATO-8th-Education-Team/8th-education.git "8기 교육팀장 유씽씽 제작")
+[교육팀 Git 활용법 정리](https://youthhing.notion.site/Git-5b328b4923e9468d8d4b581d6f54f203?pvs=4 "8기 교육팀장 유씽씽 제작")
 
 
 ## Convention
