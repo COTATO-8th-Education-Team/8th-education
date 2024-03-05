@@ -73,9 +73,13 @@ IT 연합동아리 '코테이토' 8기 교육팀 발표 자료 폴더입니다.
 - `git checkout -b 본인 핸들명` 명령어를 통해 본인 브랜치를 생성한다.
 - 해당 브랜치에서 작업 후 커밋한다. (절대! dev 브랜치에서 작업하지 않는다.)
 - 작업 후 develop 브랜치로 PR을 날린다.
-- 작업 후 로컬에서 `git checkout develop`로 브랜치를 돌린 후 `git branch -D 본인 핸들명`을 통해 브랜치를 삭제한다.
-- 작업 후 `git push origin -d 본인 핸들명`을 통해 원격 브랜치를 삭제한다.
-- 다시 작업을 시작하고 싶으면 `git checkout -b 본인 핸들명`으로 브랜치를 로컬에서 생성해 작업한다.
+- 작업 후 로컬에서 `git checkout develop`로 브랜치를 돌린 후 `git branch -D 본인 핸들명`을 통해 로컬 브랜치를 삭제한다.
+- 팀원들은 해당 PR에 대해 피드백, 리뷰를 남긴다.
+- 작업 후 `교육팀장`은 `Squash and Merge`를 통해 PR을 merge하고 원격 브랜치를 삭제한다.
+- 다시 작업을 시작하고 싶으면 `git checkout -b 본인 핸들명`으로 브랜치를 로컬에서 생성해 작업한다.<br>
+<br>
+[교육팀 Git 활용법 정리](https://github.com/COTATO-8th-Education-Team/8th-education.git "8기 교육팀장 유씽씽 제작")
+
 
 ## Convention
 발표자료 업로드: `docs: [신유승] n주차 발표자료 업로드`<br>
